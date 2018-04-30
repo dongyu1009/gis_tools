@@ -19,3 +19,9 @@ Based on ArcPy
 this is a batch program to clip raster files with shapefile.
 
 Based on Arcpy
+
+## batch_statistics_reader.py
+
+this is a batch program to read the statistics of raster files.
+
+Based on ArcPy
