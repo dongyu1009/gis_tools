@@ -25,3 +25,9 @@ Based on Arcpy
 this is a batch program to read the statistics of raster files.
 
 Based on ArcPy
+
+## gimms_mvc.py
+
+this is a program to compute the Maximum Value Composite (MVC) of the GIMMS NDVI 3g data.
+
+Based on ArcPy
