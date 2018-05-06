@@ -1,12 +1,12 @@
 #*****************************************************************
-# Filename    : gimms_define_projection.py
+# Filename    : mvc.py
 # Author      : Dong Yu
 # E-mail      : dongyu1009@163.com
-# Date        : 20170315
-# Description : convert monthly or annual ndvi dataset of gimms by using MVC(Maximum Value Composite) method
+# Date        : 20180506
+# Description : MVC(Maximum Value Composite) method
 # Version     : 0.1
 # Build       : 1
-# Copyright (c) 2017 Dong Yu
+# 2018 Dong Yu
 #*****************************************************************
 import arcpy  
 
