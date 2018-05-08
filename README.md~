@@ -31,3 +31,9 @@ Based on ArcPy
 this is a program to compute the Maximum Value Composite (MVC) of the GIMMS NDVI 3g data.
 
 Based on ArcPy
+
+## mvc.py
+
+Maxinum Value Composite Argorithm for rasters in one directory.
+
+Based on ArcPy
