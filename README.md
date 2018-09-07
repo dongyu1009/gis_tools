@@ -49,3 +49,19 @@ Fill the unknown gird in the component gird by linner regression,
 ## luccprocess.cpp
 
 Combine different LULC data. this program is to combine the lucc in IGSNRR and in IGBP.
+
+## batch_reate_raster
+
+Create Raster by a single value using C++.
+
+## batch_project.sh
+
+Project Raster by GDAL command
+
+## merge.sh
+
+Merge Rasters to a single result by GDAL command
+
+## clip_by_mask.sh
+
+Clip raster by a mask vector shapefile by GDAL command

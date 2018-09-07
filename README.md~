@@ -37,3 +37,15 @@ Based on ArcPy
 Maxinum Value Composite Argorithm for rasters in one directory.
 
 Based on ArcPy
+
+## perlucc.cpp
+
+Componenet Gird argorithm
+
+## linnerfill.cpp
+
+Fill the unknown gird in the component gird by linner regression,
+
+## luccprocess.cpp
+
+Combine different LULC data. this program is to combine the lucc in IGSNRR and in IGBP.
