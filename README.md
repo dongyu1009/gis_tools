@@ -65,3 +65,13 @@ Merge Rasters to a single result by GDAL command
 ## clip_by_mask.sh
 
 Clip raster by a mask vector shapefile by GDAL command
+
+## mean.cpp / mininum.cpp / norimaldist.cpp
+
+Programs to compute the mean, min or nordist of serial images 
+
+## c.sh / p.sh 
+
+Simple bash shell to compile the c or c++ program with GDAL lib
+
+
