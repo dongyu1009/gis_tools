@@ -89,10 +89,18 @@ int main()
         n3std[i] = mean - 3 * std;
         n2std[i] = mean - 2 * std;
         nstd[i] = mean -  std;
-        n3stdgt0[i] = ((mean - 3 * std) < 0) ? 0 : (mean - 3 * std);
-        n2stdgt0[i] = ((mean - 2 * std) < 0) ? 0 : (mean - 2 * std);
-        nstdgt0[i] = ((mean - std) < 0) ? 0 : (mean - std);
-        pstd[i] = std;
+
+        if (values[0] != nodatavalue){
+            n3stdgt0[i] = ((mean - 3 * std) < 0) ? 0 : (mean - 3 * std);
+            n2stdgt0[i] = ((mean - 2 * std) < 0) ? 0 : (mean - 2 * std);
+            nstdgt0[i] = ((mean - std) < 0) ? 0 : (mean - std);
+            pstd[i] = std;
+        } else {
+            n3stdgt0[i] = nodatavalue;
+            n2stdgt0[i] = nodatavalue;
+            nstdgt0[i] = nodatavalue;
+            pstd[i] = nodatavalue;
+        }
     }
 
     // create the new file 
