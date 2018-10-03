@@ -75,3 +75,12 @@ Programs to compute the mean, min or nordist of serial images
 Simple bash shell to compile the c or c++ program with GDAL lib
 
 
+## raster_count
+
+compute the count of sepecific values in raster
+
+## sum_tool.cpp
+
+compute sum from lots of raster images.
+
+
